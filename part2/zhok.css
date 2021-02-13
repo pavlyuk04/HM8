@@ -1,0 +1,102 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E7EC;
+}
+@font-face{
+    font-family: Kendrick;
+    src: url(font/NeueHansKendrick-Regular.ttf);
+}
+main {
+    width: 1120px;
+    height: 1101px;
+    background-color: #E2E7EC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redCar {
+
+    background-image: url(img/redcar.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 700px;
+    height: 501px;
+    color: #FFFFFF;
+
+}
+
+.column {
+    padding-left: 29px;
+    padding-bottom: 25px;
+    padding-top: 251px;
+    width: 332px;
+    height: 265px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Kendrick;
+}
+
+
+.girl {
+    background-image: url(img/girl.png);
+    background-repeat: no-repeat;
+}
+
+.photo {
+    background-image: url(img/photo.png);
+    background-repeat: no-repeat;
+}
+
+.foot {
+    background-image: url(img/foot.png);
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.car {
+    background-image: url(img/car.png);
+    background-repeat: no-repeat;
+}
+
+}
+p {
+    color: #818181;
+    font-size: 13px;
+}
+
+.text {
+    font-weight: 900;
+    width: 307px;
+    font-size: 27px;
+    color: #1D1D1D;
+}
+
+.opacity {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: Kendrick;
+    font-size: 13px;
+}
+
+.whitetext {
+    width: 433px;
+    font-family: Kendrick;
+    color: white;
+    font-size: 30px;
+}
+
+.minimg {
+    margin-top: 60px;
+}
